@@ -1,28 +1,28 @@
 import {
-    mobile,
     backend,
     creator,
     web,
-    javascript,
     typescript,
     html,
     css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    cisco,
+    TwentyOneNorth,
+    siemens,
+    qafsc,
+    angular,
+    azure,
+    flask,
+    java,
+    kubernetes,
+    postgres,
+    python,
+    springboot,
+    tOneNorth,
+    EPNM,
+    RTLS,
+    FoodProDocs
 } from "../assets";
 
 export const navLinks = [{
@@ -57,7 +57,8 @@ const services = [{
     },
 ];
 
-const technologies = [{
+const technologies = [
+    {
         name: "HTML 5",
         icon: html,
     },
@@ -66,55 +67,55 @@ const technologies = [{
         icon: css,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
         name: "TypeScript",
         icon: typescript,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
     },
     {
         name: "git",
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
-    },
-    {
         name: "docker",
         icon: docker,
+    },
+    {
+        name: 'Kubernetes',
+        icon: kubernetes
+    },
+    {
+        name: 'Azure',
+        icon: azure
+    },
+    {
+        name: 'Angular',
+        icon: angular
+    },
+    {
+        name: 'Flask',
+        icon: flask
+    },
+    {
+        name: 'Python',
+        icon: python
+    },
+    {
+        name: 'PostgreSQL',
+        icon: postgres
+    },
+    {
+        name: 'Java',
+        icon: java
+    },
+    {
+        name: 'Spring Boot',
+        icon: springboot
     },
 ];
 
 const experiences = [{
         title: "Associate Technical Consultant",
         company_name: "Quality and Food Safety Consultants",
-        icon: starbucks,
+        icon: qafsc,
         iconBg: "#383E56",
         date: "March 2015 - Feb 2016",
         points: [
@@ -127,7 +128,7 @@ const experiences = [{
     {
         title: "Senior Software Engineer",
         company_name: "Siemens",
-        icon: tesla,
+        icon: siemens,
         iconBg: "#E6DEDD",
         date: "Feb 2016 - Jan 2020",
         points: [
@@ -144,7 +145,7 @@ const experiences = [{
     {
         title: "Full Stack Developer",
         company_name: "21 North Europ Assistance",
-        icon: shopify,
+        icon: TwentyOneNorth,
         iconBg: "#383E56",
         date: "Jan 2020 - Sep 2020",
         points: [
@@ -159,7 +160,7 @@ const experiences = [{
     {
         title: "Senior Software Engineer",
         company_name: "Cisco",
-        icon: meta,
+        icon: cisco,
         iconBg: "#E6DEDD",
         date: "Sep 2020 - Present",
         points: [
@@ -211,7 +212,7 @@ const projects = [{
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: FoodProDocs,
         source_code_link: "https://github.com/",
     },
     {
@@ -230,7 +231,7 @@ const projects = [{
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: FoodProDocs,
         source_code_link: "https://github.com/",
     },
     {
@@ -249,7 +250,7 @@ const projects = [{
                 color: "red-text-gradient",
             },
         ],
-        image: tripguide,
+        image: RTLS,
         source_code_link: "https://github.com/",
     },
     {
@@ -280,7 +281,7 @@ const projects = [{
                 color: "green-text-gradient"
             }
         ],
-        image: tripguide,
+        image: RTLS,
         source_code_link: "https://github.com/",
     },
     {
@@ -303,7 +304,7 @@ const projects = [{
                 color: "yellow-text-gradient"
             }
         ],
-        image: tripguide,
+        image: tOneNorth,
         source_code_link: "https://github.com/",
     },
     {
@@ -338,7 +339,7 @@ const projects = [{
                 color: "blue-text-gradient"
             }
         ],
-        image: tripguide,
+        image: EPNM,
         source_code_link: "https://github.com/",
     },
 ];
