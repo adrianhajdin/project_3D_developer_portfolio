@@ -1,7 +1,7 @@
 {
   "name": "3dfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,24 +10,24 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
-    "@react-three/drei": "^9.56.24",
-    "@react-three/fiber": "^8.11.1",
-    "framer-motion": "^9.0.7",
-    "maath": "^0.5.2",
+    "@react-three/drei": "^9.57.3",
+    "@react-three/fiber": "^8.12.0",
+    "framer-motion": "^10.3.2",
+    "maath": "^0.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1",
-    "react-tilt": "^0.1.4",
+    "react-router-dom": "^6.9.0",
+    "react-tilting": "^0.1.6",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.149.0"
+    "three": "^0.150.1"
   },
   "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.6",
-    "vite": "^4.1.0"
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.4"
   }
 }
