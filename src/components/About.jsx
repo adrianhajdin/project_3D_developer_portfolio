@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt"; // use react-parallax-tilt instead of react-tilt and remove -legacy-peer-deps from the command
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
