@@ -47,12 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Dynamic and versatile software developer with a background in law, agriculture, and business. Skilled in front-end (HTML, CSS, Bootstrap, JavaScript, React JS), back-end (Node JS, Express JS), and database development (MongoDB, SQL). Collaborative team player experienced in agile-scrum methodologies. Strong communicator with problem-solving and strategic thinking abilities. Passionate about agritech, business and AI. Dedicated to creating effective digital solutions.
       </motion.p>
+      <div>
+        <a href="https://drive.google.com/file/d/1PBy4oH7jhjvAJheAUkE-BhVVUWhBSVMB/view?usp=sharing" target="_blank">My Resume</a>
+      </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

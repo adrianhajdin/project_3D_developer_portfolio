@@ -18,11 +18,20 @@ import {
   meta,
   starbucks,
   tesla,
+  tourism,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  expressjs,
+  sql,
+  bootstrap,
+  react_js,
+  node_js,
+  mongo_db,
+  sql_,
+  justfit,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +51,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "React JS Developer",
+    icon: react_js,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Node JS Developer",
+    icon: node_js,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Mongo DB",
+    icon: mongo_db,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "SQL",
+    icon: sql_,
   },
 ];
 
@@ -72,17 +81,21 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Tailwind CSS",
@@ -93,13 +106,21 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Express JS",
+    icon: expressjs,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "SQL",
+    icon: sql,
   },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -108,63 +129,46 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Co-Founder",
+    company_name: "Chiang Klang Tourism Community Enterprise",
+    // icon:tourism,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2021 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and executed a comprehensive marketing strategy that significantly increased tourism to the Chiang Klang Community-based Tourism enterprise during the high season This resulted in daily revenues of over 100,000 baht and a 10-15% increase in sales for partners.",
+      "Managed the financial recording and accounting of the company's revenue, expenses, and transactions.",
+      "Monitored to ensure that business partners comply with legal regulations, which allows the business to operate in good governance and ethical way.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Barista",
+    company_name: "Khum Setthi coffee shop",
+    // icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed inventory levels effectively, reducing waste by 50% and increasing profitability by ฿40,000 per month.",
+      "Developed and executed a new training program for incoming employees, resulting in a 90% increase in customer satisfaction scores.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Accountant (Part-time) ",
+    company_name: "BSK Power Engineering Ltd., Part.",
+    // icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jun 2022 - Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Streamlined data entry processes by implementing automation tools, resulting in a 50% reduction in errors and saving 10 hours of manual work per week.",
+      "Improved attendance tracking system by introducing biometric scanning technology, reducing the margin of error to less than 1% and on payroll discrepancies.",
+      "Analyzed weekly expense reports to identify cost-saving opportunities, leading to a 15% reduction in operational expenses.",
     ],
   },
 ];
@@ -198,9 +202,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "JustFit",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An activity-tracking web application targeting working women seeking improved health that integrates features of activity tracking, goal setting, exercise videos, and healthy menus for an optimal user experience.",
     tags: [
       {
         name: "react",
@@ -211,55 +215,36 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: justfit,
+    source_code_link_github: "https://github.com/",
+    source_code_link_demo: "https://justfit-d2-sbg9.vercel.app/",
   },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "",
+  //   description:
+  //     "",
+  //   tags: [
+  //     {
+  //       name: "",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ,
+  //   source_code_link_github: "",
+  //   source_code_link_demo: "",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
