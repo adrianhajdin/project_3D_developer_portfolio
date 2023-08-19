@@ -25,10 +25,19 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import aiesec from "../assets/company/aiesec.png";
+import altotech from "../assets/company/altotech.png";
+import bluebik from "../assets/company/bluebik.png";
+import agnos from "../assets/company/agnos.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import youtube from "./youtube.png";
+
+import mix from "../assets/recommendations/mix.png";
+import ani from "../assets/recommendations/ani.png";
+import peak from "../assets/recommendations/peak.png";
 
 export {
   logo,
@@ -59,4 +68,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  aiesec,
+  altotech,
+  bluebik,
+  agnos,
+  youtube,
+  mix,
+  peak,
+  ani,
 };
