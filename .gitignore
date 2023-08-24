@@ -27,3 +27,4 @@ dist-ssr
 
 # vscode
 .vscode
+.vercel
