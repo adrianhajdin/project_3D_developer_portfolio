@@ -38,6 +38,7 @@ import youtube from "./youtube.png";
 import mix from "../assets/recommendations/mix.png";
 import ani from "../assets/recommendations/ani.png";
 import peak from "../assets/recommendations/peak.png";
+import punn from "../assets/recommendations/punn.png"
 
 export {
   logo,
@@ -76,4 +77,5 @@ export {
   mix,
   peak,
   ani,
+  punn
 };

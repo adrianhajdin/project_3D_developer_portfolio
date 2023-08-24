@@ -30,7 +30,8 @@ import {
   youtube,
   mix,
   ani,
-  peak
+  peak,
+  punn
 } from "../assets";
 
 export const navLinks = [
@@ -57,6 +58,10 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Fullstack Developer",
+    icon: creator,
   },
 ];
 
@@ -179,11 +184,11 @@ const testimonials = [
   {
     testimonial:
       "",
-    name: "Anirudh Makhana",
-    designation: "Software Engineer",
-    company: "Ex-Line",
-    image: ani,
-  },
+    name: "Punn Damrongratnuwong",
+    designation: "Data Analyst",
+    company: "Agoda",
+    image: punn,
+  },  
   {
     testimonial:
       "",
