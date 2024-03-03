@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dualsense
+* source:	https://sketchfab.com/3d-models/dualsense-98bcc300aba0450a83f7a044f616b544
+* author:	Chizuko V (https://sketchfab.com/chizuk0)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dualsense" (https://sketchfab.com/3d-models/dualsense-98bcc300aba0450a83f7a044f616b544) by Chizuko V (https://sketchfab.com/chizuk0) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

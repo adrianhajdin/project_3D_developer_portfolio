@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  warhammer,
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +47,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Video Game Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Java/python/C#",
     icon: backend,
   },
   {
@@ -116,36 +117,34 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Gameplay Designer",
+    company_name: "Gamification Project",
     icon: starbucks,
-    iconBg: "#383E56",
+    iconBg: "#FCE44D",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a gamification project under the Comp Sci. Department head using TypeScript, Remix JS framework, and Unity with WebGL. ",
+      "Aimed at enhancing the learning experience of Data Structures and Algorithms (DSA) for new students by gamifying the experience. Responsible for the Unity and game development side of the project.",
+      "Responsible for developing the videogame side of the project using unity and integratign it with remix using WebGL",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Collegia Assitant",
+    company_name: "UBC",
+    icon: starbucks,
+    iconBg: "#FCE44D",
+    date: "Nov 2023 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Responsible for managing a space for commuter students to relax.",
+      "Resposible for organizing events for student in the space",
+      "Made the space more known and inclusive for everyone.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    title: "CSL Leader",
+    company_name: "UBC",
+    icon: starbucks,
+    iconBg: "#FCE44D",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -154,60 +153,48 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Wow, this is pretty cool.",
+    name: "Mrunal",
+    designation: "Member",
+    company: "my friend group",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Dayum bro, nice job",
+    name: "Arhaan",
+    designation: "Member",
+    company: "my friend group",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "This website looks amazing, but wait this is not my photo",
+    name: "Apporva",
+    designation: "Member",
+    company: "my friend gruop",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gamification project",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A remix based web application that is aimed at gamifying the experience of learning data structures. Makes use of remix, unity, prima, tailwind etc",
     tags: [
       {
-        name: "react",
+        name: "remix/react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "unity",
         color: "green-text-gradient",
       },
       {
@@ -215,24 +202,24 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tripguide,
+    source_code_link: "https://github.com/Battlebee12",
   },
   {
-    name: "Job IT",
+    name: "Eventify",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An event ticketing management platform similar to tiketmaster that makes use of react, css and django. In Progress.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Django",
         color: "pink-text-gradient",
       },
     ],
@@ -240,26 +227,47 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Fruit Smasher",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simple functional unity game, where you collect fruits as and increase your score",
     tags: [
       {
-        name: "nextjs",
+        name: "unity",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "C#",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: carrent,
+    source_code_link: "https://battlebee12.itch.io/fruit-catcher",
+  },
+  {
+    name: "WarHammer",
+    description:
+      "Developed a Bot using Python and Reddit API to fetch any media from Reddit based on input.Working to turn memes from Reddit into videos using MoviePy and uploading to YouTube using Python ",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RedditAPI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MoviePy",
         color: "pink-text-gradient",
       },
+      
     ],
-    image: tripguide,
+    image: warhammer,
     source_code_link: "https://github.com/",
   },
+  
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
