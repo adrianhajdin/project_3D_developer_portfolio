@@ -121,7 +121,7 @@ const experiences = [
     company_name: "Gamification Project",
     icon: starbucks,
     iconBg: "#FCE44D",
-    date: "March 2020 - April 2021",
+    date: "December 2023 - Current",
     points: [
       "Developing a gamification project under the Comp Sci. Department head using TypeScript, Remix JS framework, and Unity with WebGL. ",
       "Aimed at enhancing the learning experience of Data Structures and Algorithms (DSA) for new students by gamifying the experience. Responsible for the Unity and game development side of the project.",
@@ -161,24 +161,24 @@ const testimonials = [
     testimonial:
       "Wow, this is pretty cool.",
     name: "Mrunal",
-    designation: "Member",
-    company: "my friend group",
+    designation: "A friend",
+    company: " sarab",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "Dayum bro, nice job",
     name: "Arhaan",
-    designation: "Member",
-    company: "my friend group",
+    designation: "A friend",
+    company: "sarab",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "This website looks amazing, but wait this is not my photo",
-    name: "Apporva",
-    designation: "Member",
-    company: "my friend gruop",
+    name: "Puneet",
+    designation: "Elder sister",
+    company: "sarab",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
