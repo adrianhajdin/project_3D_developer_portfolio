@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo_mo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -11,6 +11,7 @@ import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+// import githubTech from "./tech/github_tech.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -43,6 +44,7 @@ export {
   docker,
   figma,
   git,
+  // githubTech,
   html,
   javascript,
   mongodb,
