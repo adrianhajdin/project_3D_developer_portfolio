@@ -22,7 +22,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import swapso from "./company/swapso.png";
 import shopify from "./company/shopify.png";
+import cohortlab from "./company/cohortlab.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -51,8 +53,10 @@ export {
   redux,
   tailwind,
   typescript,
+  swapso,
   threejs,
   meta,
+  cohortlab,
   shopify,
   starbucks,
   tesla,

@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hello! Proficient in MERN stack and API development, I've earned recognition as a finalist at the prestigious GOI DPBH Hackathon'23, reflecting my deep involvement in web development. Additionally, I've achieved 5-Star Hackerrank Badges in Python and SQL, showcasing my expertise in data-driven solutions. Delving into blockchain technology has further fueled my passion for innovation. Currently, I'm excitedly spearheading CohortLab, a groundbreaking project aimed at transforming collaborative workspaces. My dedication to continuous learning drives me to push the boundaries of what's possible in the digital realm
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

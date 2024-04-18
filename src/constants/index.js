@@ -13,9 +13,11 @@ import {
   nodejs,
   mongodb,
   git,
+  cohortlab,
   figma,
   docker,
   meta,
+  swapso,
   starbucks,
   tesla,
   shopify,
@@ -46,7 +48,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DSA Expert",
     icon: creator,
   },
 ];
@@ -116,57 +118,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Founder",
+    company_name: "CohortLab",
+    icon: cohortlab,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Driving Technological Innovation: Spearheading the adoption of cutting-edge solutions to enhance collaborative learning experiences.",
+
+      "Leading Product Development: Overseeing the entire product lifecycle, ensuring alignment with the company's vision while fostering innovation within the technical team.",
+      
+      "Building a Skilled Technical Team: Nurturing a culture of excellence and collaboration, assembling a talented team capable of delivering on CohortLab's ambitious goals.",
+      
+      "Prioritizing Scalability and Security: Implementing robust infrastructure and cybersecurity measures to accommodate growth and safeguard user data, ensuring CohortLab's platform remains reliable and secure.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Program Director",
+    company_name: "Swapso.io",
+    icon: swapso,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Key Contributor to SwapSo.io: Played a significant role in SwapSo.io, contributing to its tech initiatives and program management, leveraging skills in program coordination and technology to advance its educational goals.",
+
+      "Campus Ambassador to Head of Campus Ambassadors: Demonstrated exceptional leadership and technical expertise, progressing from a Campus Ambassador role to Head of Campus Ambassadors within just five months, showcasing effective team building and management skills.",
+      
+      "Driving Technological Innovation: Implemented innovative solutions and strategies within SwapSo.io, leveraging expertise in program management and technology to enhance its platform and initiatives.",
+      
+      "Hybrid Work Model Implementation: Successfully adapted to a hybrid work model, balancing remote and on-site responsibilities effectively, showcasing flexibility and adaptability in managing tech projects and program coordination at SwapSo.io.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
