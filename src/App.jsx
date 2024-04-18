@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import Footer from "./components/Footer";
-import Start from "./components/start";
+import Start from "./components/Start";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
