@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from 'react-tilt'
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -69,7 +69,7 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <>
+    <div className="text-center">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
@@ -78,7 +78,7 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] m-auto'
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
@@ -88,12 +88,12 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

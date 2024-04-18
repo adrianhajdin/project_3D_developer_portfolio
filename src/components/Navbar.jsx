@@ -33,7 +33,7 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='w-full flex justify-between items-center max-w-7xl ml-9'>
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -42,10 +42,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+          {
+            scrolled && <img src={logo} alt='logo' className='h-8 w-8 object-cover rounded-full' />
+          }
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+            MOUAD AKROUBI &nbsp;
+            <sub className='sm:block hidden text-sm text-secondary mt-1'> full-stack developer</sub>
           </p>
         </Link>
 
