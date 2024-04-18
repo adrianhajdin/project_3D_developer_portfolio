@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
 
         {!scrolled && (
-          <div className="profile">
+          <div className="profile hidden xs:block">
             <img
               className="w-50 h-40 rounded-full border-4 border-[#915EFF]"
               src={logo}
