@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-
+import App from "./Heatmap";
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -43,7 +45,9 @@ const Hero = () => {
             />
           </div>
         </a>
+        {/* <App />; */}
       </div>
+      
     </section>
   );
 };

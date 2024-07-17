@@ -1,22 +1,35 @@
 import { BrowserRouter } from "react-router-dom";
+import { About, Experience, Works, Navbar, Hero, Tech, Feedbacks, Contact, StarsCanvas } from "./components";
+import Spline from '@splinetool/react-spline';
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
         </div>
-    
-        {/* <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks /> */}
-        <div className='relative z-0'>
+        
+        {/* Flex container for About, Works, and Experience */}
+        <div className="flex">
+          <div className="flex-auto w-1/3 p-4 overflow-y-auto">
+            <About />
+          </div>
+          <div className="flex-auto w-1/3 p-4 overflow-y-auto">
+            <Works />
+          </div>
+          {/* <div className="flex-auto w-1/3 p-4 overflow-y-auto">
+            <Experience />
+          </div> */}
+        </div>
+
+        {/* <Tech /> */}
+        <Feedbacks />
+        {/* <Spline scene="https://prod.spline.design/Dx789ylokVwpwSgE/scene.splinecode" /> */}
+        
+        <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
@@ -26,23 +39,3 @@ const App = () => {
 }
 
 export default App;
-
-/*
-
-const App = () => {
-  return (
-    <div className="h-screen flex flex-col">
-      <div className="flex-1 overflow-y-auto border border-gray-300 p-5">
-        <About />
-      </div>
-      <div className="flex-1 overflow-y-auto border border-gray-300 p-5">
-        <Work />
-      </div>
-      <div className="flex-1 overflow-y-auto border border-gray-300 p-5">
-        <Experience />
-      </div>
-    </div>
-  );
-};
-
-export default App; */

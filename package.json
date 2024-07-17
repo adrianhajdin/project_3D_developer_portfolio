@@ -13,10 +13,15 @@
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.108.4",
     "@react-three/fiber": "^8.16.8",
+    "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.9.0",
     "framer-motion": "^11.3.2",
     "maath": "^0.10.8",
+    "moment": "^2.30.1",
+    "node-sass": "^9.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-heatmap-grid": "^0.9.0",
     "react-router-dom": "^6.24.1",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
@@ -32,6 +37,7 @@
     "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "sass": "^1.77.8",
     "tailwindcss": "^3.4.5",
     "vite": "^5.3.1"
   }
