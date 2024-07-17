@@ -10,11 +10,12 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <About />
+    
+        {/* <About />
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
@@ -25,3 +26,23 @@ const App = () => {
 }
 
 export default App;
+
+/*
+
+const App = () => {
+  return (
+    <div className="h-screen flex flex-col">
+      <div className="flex-1 overflow-y-auto border border-gray-300 p-5">
+        <About />
+      </div>
+      <div className="flex-1 overflow-y-auto border border-gray-300 p-5">
+        <Work />
+      </div>
+      <div className="flex-1 overflow-y-auto border border-gray-300 p-5">
+        <Experience />
+      </div>
+    </div>
+  );
+};
+
+export default App; */
