@@ -27,7 +27,7 @@ const App = () => {
 
         {/* <Tech /> */}
         <Feedbacks />
-        {/* <Spline scene="https://prod.spline.design/Dx789ylokVwpwSgE/scene.splinecode" /> */}
+        {/* <Spline scene="https://prod.spline.design/Dx789ylokVwpwSgE/scene.splinecode" />  */}
         
         <div className="relative z-0">
           <Contact />
