@@ -1,33 +1,44 @@
 {
-  "name": "3dfolio",
+  "name": "nkportfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
-    "@react-three/drei": "^9.56.24",
-    "@react-three/fiber": "^8.11.1",
-    "framer-motion": "^9.0.7",
-    "maath": "^0.5.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1",
-    "react-tilt": "^0.1.4",
+    "@emailjs/browser": "^4.4.1",
+    "@react-three/drei": "^9.108.4",
+    "@react-three/fiber": "^8.16.8",
+    "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.9.0",
+    "framer-motion": "^11.3.2",
+    "maath": "^0.10.8",
+    "moment": "^2.30.1",
+    "node-sass": "^9.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-heatmap-grid": "^0.9.0",
+    "react-router-dom": "^6.24.1",
+    "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.149.0"
+    "three": "^0.150.0",
+    "three-stdlib": "^2.18.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.6",
-    "vite": "^4.1.0"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "sass": "^1.77.8",
+    "tailwindcss": "^3.4.5",
+    "vite": "^5.3.1"
   }
 }

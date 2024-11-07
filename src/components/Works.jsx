@@ -1,5 +1,6 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from 'react-tilt'; // Adjust according to the actual export
+// import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
