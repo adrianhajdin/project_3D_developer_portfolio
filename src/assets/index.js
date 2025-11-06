@@ -20,15 +20,28 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import golang from "./tech/golang.png";
+import rust from "./tech/rust.png";
+import postgresql from "./tech/postgresql.png";
+import archlinux from "./tech/archlinux.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import plpsoft from "./company/plpsoft.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import realtimechat from "./realtimechat.png";
+import birth from "./birth.png";
+import location from "./location.png";
+import phone from "./phone.png";
+import email from "./email.png";
+import linkedin from "./linkedin.png";
+import cv from "./CV.png";
 
 export {
   logo,
@@ -52,11 +65,24 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  golang,
+  rust,
+  postgresql,
+  archlinux,
   meta,
   shopify,
   starbucks,
   tesla,
+  plpsoft,
   carrent,
   jobit,
   tripguide,
+  realtimechat,
+  birth,
+  location,
+  phone,
+  email,
+  linkedin,
+  cv,
 };
