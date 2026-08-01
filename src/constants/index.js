@@ -23,7 +23,30 @@ import {
   jobit,
   tripguide,
   threejs,
+  college,
+  sevar,
+  almalakia,
 } from "../assets";
+import bootstrap from "../assets/tech/bootstrap.png"
+import depi from "../assets/company/depi.png"
+import ieee from "../assets/company/ieee.png"
+import msp from "../assets/company/msp.png"
+import nti from "../assets/company/nti.png"
+import fitblended from "../assets/fitblended.png"
+import Admin from "../assets/Admin.png"
+import Temp from "../assets/Temp.png"
+import plants from "../assets/plants.jfif"
+import flower from "../assets/flower.png"
+import calcReact from "../assets/calcReact.png"
+import todo from "../assets/todo.jfif"
+import grocery from "../assets/grocery.png"
+import ntiCer from "../assets/ntiCer.jpg"
+import ieeCer from "../assets/ieeCer.jpg"
+import depiTech from "../assets/depiTech.jpg"
+import depiE from "../assets/depiE.jpg"
+import mlsa from "../assets/mlsa.jpg"
+import mspCer from "../assets/mspCer.jpg"
+
 
 export const navLinks = [
   {
@@ -32,30 +55,37 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "certificates",
+    title: "Certificates",
   },
   {
     id: "contact",
     title: "Contact",
   },
+  
 ];
+
+
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-End Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "AI Engineering",
+    icon: mobile, 
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Intelligent UI/UX",
+    icon: backend, 
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Responsive & Accessible Design",
+    icon: creator, 
   },
 ];
 
@@ -80,14 +110,16 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  {
+    name: "bootstrap",
+    icon: bootstrap,
+  },
+  
   {
     name: "Node JS",
     icon: nodejs,
@@ -104,10 +136,7 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  
   {
     name: "docker",
     icon: docker,
@@ -116,58 +145,65 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "React Frontend Web Developer",
+    company_name: "Digital Egypt Pioneers Initiative (DEPI)",
+    icon: depi, 
+    iconBg: "#FFFFFF",
+    date: "June 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Deepening expertise in modern web development, emphasizing React while reinforcing core skills in HTML, CSS, JavaScript, and tools like Git/GitHub, NodeJS, and container technologies.",
+      "Engaging in a real-world capstone project that showcases the power of full-stack collaboration between React and NodeJS.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Internship Trainee",
+    company_name: "National Telecommunication Institute (NTI)",
+    icon: nti, 
+    iconBg: "#FFFFFF",
+    date: "May 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in intensive practical training in software development and network fundamentals.",
+      "Building hands-on projects with modern web technologies and improving debugging skills.",
+    ],
+  },
+  
+  {
+    title: "Volunteer",
+    company_name: "IEEE Kafrelshiekh Student Branch",
+    icon: ieee, 
+    iconBg: "#FFFFFF",
+    date: "Nov 2024 - Feb 2025",
+    points: [
+      "Organized and participated in tech workshops and coding events.",
+      "Assisted in mentoring junior students in web development basics.",
+      "Helped manage event logistics and contributed to community engagement initiatives.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Internship Trainee",
+    company_name: "Digital Egypt Pioneers Initiative (DEPI)",
+    icon: depi, 
+    iconBg: "#FFFFFF",
+    date: "June 2024 - Nov 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed a 6-month comprehensive training covering front-end and back-end development.",
+      "Built responsive websites and dashboards using modern frameworks.",
+      "Developed team projects simulating real-world tech company scenarios.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Volunteer",
+    company_name: "Microsoft Student Club - KFS",
+    icon: msp, 
+    iconBg: "#FFFFFF",
+    date: "Feb 2024 - Apr 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participated in community events promoting Microsoft technologies.",
+      "Assisted peers in using GitHub, Visual Studio Code, and deploying basic apps to Azure.",
     ],
   },
 ];
+
 
 const testimonials = [
   {
@@ -197,69 +233,410 @@ const testimonials = [
 ];
 
 const projects = [
+ 
+   {
+  name: "Smart Integrated University Portal System",
+  description:
+    "A modern AI-powered university portal featuring student dashboards, AI chatbot integration, multilingual support (Arabic & English), authentication, academic services, payment management, and a fully responsive user interface built with a scalable component architecture.",
+  tags: [
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "TypeScript",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Vite",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Tailwind CSS",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "shadcn/ui",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Radix UI",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "TanStack Query",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "React Router",
+      color: "green-text-gradient",
+    },
+    {
+      name: "React Hook Form",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Zod",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Axios",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Framer Motion",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "i18next",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Recharts",
+      color: "green-text-gradient",
+    },
+  ],
+  image: college,
+  source_code_link: "https://github.com/Amiirahesham/collegeWebsite",
+  live_demo_link:
+    "https://college-website-byqqtr2o7-amiiraheshams-projects.vercel.app/",
+},
   {
-    name: "Car Rent",
+  name: "SÉVAR Luxury Perfume Store",
+  description:
+    "A premium bilingual perfume e-commerce website designed for SÉVAR, featuring a luxury UI, responsive design, product catalog, dark/light mode, multilingual support (Arabic & English), and a seamless shopping experience with a modern frontend architecture.",
+  tags: [
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "TypeScript",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Vite",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Tailwind CSS",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "shadcn/ui",
+      color: "green-text-gradient",
+    },
+    {
+      name: "TanStack Query",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "React Router",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Framer Motion",
+      color: "green-text-gradient",
+    },
+    {
+      name: "i18next",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: sevar,
+  source_code_link: "https://github.com/Amiirahesham/sevar",
+  live_demo_link: "YOUR_DEPLOYMENT_LINK",
+},
+  {
+  name: "Almalakia Pure Life",
+  description:
+    "A modern and responsive corporate website for Almalakia Pure Life, showcasing the company's premium bottled water products with a clean user interface, intuitive navigation, and an optimized browsing experience across all devices.",
+   tags: [
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "TypeScript",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Vite",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Tailwind CSS",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "shadcn/ui",
+      color: "green-text-gradient",
+    },
+    {
+      name: "TanStack Query",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "React Router",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Framer Motion",
+      color: "green-text-gradient",
+    },
+    {
+      name: "i18next",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: almalakia,
+  source_code_link: "https://github.com/Amiirahesham/almalakia-pure-uae",
+  live_demo_link: "https://almalakia.co/home",
+},
+  {
+    name: "Fit U",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a customizable physical therapy website with a smooth, responsive design and a unique color theme switcher for user personalization.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:fitblended ,
+    source_code_link: "https://github.com/Amiirahesham/FitU-withAddedFeatures",
+     live_demo_link:"https://amiirahesham.github.io/FitU-withAddedFeatures/"
   },
   {
-    name: "Job IT",
+    name: "Admin Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+"A data-driven, clean, fully responsive dashboard with light/dark modes, an intuitive modern UI, and sections for insightful analytics and real-time user activity" ,
+   tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Admin,
+    source_code_link: "https://github.com/Amiirahesham/adminDashboard",
+         live_demo_link:"https://amiirahesham.github.io/adminDashboard/"
+
   },
   {
-    name: "Trip Guide",
+    name: "Plants Store",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+"A fully responsive website for plant shopping, built with HTML, JavaScript, and Tailwind CSS. Includes smooth animations and mobile-first design for enhanced user experience.   "  ,
+tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: plants,
+    source_code_link: "https://github.com/Amiirahesham/plants_tailwind",
+    live_demo_link:"https://amiirahesham.github.io/plants_tailwind/"
   },
+  {
+    name: "Flowers Store",
+    description:
+"A responsive e-commerce front-end template for a floral boutique , The design is mobile-first and features a clean product grid, intuitive navigation, and a visually engaging user interface.",
+tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: flower,
+    source_code_link: "https://github.com/Amiirahesham/Flower-store",
+    live_demo_link:"https://amiirahesham.github.io/Flower-store/"
+  },
+  {
+    name: "Calculator React App",
+    description:
+"A clean and responsive calculator built with React. This app handles all basic arithmetic operations, demonstrating a solid understanding of state management with the useState hook and event handling in a component-based architecture   "  ,
+tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: calcReact,
+    source_code_link: "https://github.com/Amiirahesham/SimpleCalcUsingReact.JS",
+  },
+  {
+    name: "IOT Dashboard",
+    description:
+    "A dynamic IoT dashboard that brings real-world sensor data to the web. It provides a live, at-a-glance view of temperature and humidity readings, complete with interactive charts for historical trend analysis. This project showcases the seamless integration of a front-end application with a physical IoT device.",
+tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:Temp,
+    source_code_link: "https://github.com/Amiirahesham/temp-humidityDashboard",
+    live_demo_link:"https://amiirahesham.github.io/temp-humidityDashboard/"
+  },
+  
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+
+
+const certifications = [
+  {
+    name: "Machine Learning & AI",
+    issuing_organization: "Digital Egypt Pioneers Initiative",
+    image:depiTech, // Use the imported image variable
+    tags: [
+      {
+        name: "ML & AI",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+  },
+  {
+    name: "Business English ",
+    issuing_organization: "Digital Egypt Pioneers Initiative",
+    image: depiE, // Use the imported image variable
+    tags: [
+      {
+        name: "English",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+  },
+  {
+    name: "Front-End Development",
+    issuing_organization: "IEEE-KSB",
+    image: ieeCer, // Use the imported image variable
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "git & GitHub",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "Artificial Intelligence",
+    issuing_organization: "National Telecommunication Institute (NTI)",
+    image: ntiCer, // Use the imported image variable
+    tags: [
+      {
+        name: "ML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CV",
+        color: "yellow-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "computer vesion",
+    issuing_organization: "MIcrosoft Learn Student Ambassadors (MLSA)",
+    image: mlsa, // Use the imported image variable
+    tags: [
+      {
+        name: "CV",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MediaPipe",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  
+  {
+    name: "computer vesion",
+    issuing_organization: "MSP - KFS",
+    image: mspCer, // Use the imported image variable
+    tags: [
+      {
+        name: "CV",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MediaPipe",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  
+];
+
+export { services, technologies, experiences, testimonials, projects , certifications };
